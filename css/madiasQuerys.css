@@ -1,0 +1,129 @@
+@media screen and (max-width: 1024px){
+    .hero_img img{
+        width: 100%;
+        height: 16rem;
+    }
+    .hero_texto h1{
+        font-size: 2.4rem;
+    }
+
+    .hero_img1 img{
+        width: 30rem;
+    }
+    .hero_texto a{
+        padding: .5rem 2rem;
+        font-size: 1.3rem;
+    }
+    .section_container{
+        width: 80%;
+        margin: 3rem 10%;
+    }
+    .section_textos{
+        width: 20rem;
+        margin-right: 3rem;
+    }
+
+    .section_img img{
+        width: 27rem;
+    }
+    .card{
+        width: 45rem;
+    }
+    .grid_container{
+        width: 75%;
+        height: 50rem;
+        margin: 4rem 12.5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero_img img{
+        width: 100%;
+        height: 14rem;
+    }
+    .hero_container{
+        justify-content: center;
+    }
+    .hero_texto{
+        width: 70%;
+        text-align: center;
+    }
+    .hero_texto h1{
+        font-size: 2.5rem;
+    }
+
+    .hero_texto a{
+        padding: .5rem 2rem;
+    }
+
+    .hero_img1 img{
+        display: none;
+    }
+    .section h2{
+        text-align: center;
+    }
+    .section_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_textos{
+        text-align: center;
+        width: 90%;
+        margin-bottom: 4rem;
+    }
+    .card{
+        width: 35rem;
+        height: 10rem;
+    }
+    .grid_container{
+        width: 75%;
+        height: 50rem;
+        margin: 4rem 12.5%;
+    }
+}
+
+@media screen and (max-width: 478px){
+    .hero_img img{
+        width: 100%;
+        height: 10rem;
+        background-size: cover;
+    }
+    .hero_container{
+        justify-content: center;
+    }
+    .hero_texto{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .hero_texto h1{
+        font-size: 2.5rem;
+    }
+
+    .hero_texto a{
+        padding: .5rem 2rem;
+    }
+    .card{
+        width: 23rem;
+        height: 7rem;
+    }
+    .card_puntos h3{
+        font-size: 1rem;
+    }
+
+    .card_estrellas i{
+        font-size: 1.4rem;
+    }
+    .card_img img{
+        width: 5rem;
+        margin: 0 1rem;
+    }
+    .section_textos{
+        margin: 0;
+        width: 100%;
+    }
+    .section_img img{
+        margin-top: 2rem;
+        width: 20rem;
+    }
+}
