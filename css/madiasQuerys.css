@@ -1,42 +1,27 @@
 @media screen and (max-width: 1400px){
     .hero_img img{
-        width: 100%;
-        height: 16rem;
+        height: 14rem;
     }
     .hero_texto h1{
-        font-size: 2.4rem;
+     font-size: 2.5rem;   
     }
-
     .hero_img1 img{
         width: 30rem;
     }
     .hero_texto a{
-        padding: .5rem 2rem;
-        font-size: 1.3rem;
+        padding: .6rem 2rem;
     }
-    .section_container{
-        width: 80%;
-        margin: 3rem 10%;
-    }
-    .section_textos{
-        width: 20rem;
-        margin-right: 3rem;
-    }
-
     .section_img img{
-        width: 27rem;
-    }
-    .card{
-        width: 45rem;
+        width: 35rem;
     }
     .grid_container{
-        width: 75%;
-        height: 50rem;
-        margin: 4rem 12.5%;
+        width: 80%;
+        height: 40rem;
+        margin: 0 10%;
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1024px){
     .hero_img img{
         width: 100%;
         height: 14rem;
@@ -45,7 +30,6 @@
         justify-content: center;
     }
     .hero_texto{
-        width: 70%;
         text-align: center;
     }
     .hero_texto h1{
@@ -75,21 +59,12 @@
         width: 35rem;
         height: 10rem;
     }
-    .grid_container{
-        width: 75%;
-        height: 50rem;
-        margin: 4rem 12.5%;
-    }
 }
 
-@media screen and (max-width: 478px){
+@media screen and (max-width: 414px){
     .hero_img img{
         width: 100%;
-        height: 10rem;
-        background-size: cover;
-    }
-    .hero_container{
-        justify-content: center;
+        height: 7rem;
     }
     .hero_texto{
         width: 100%;
@@ -97,15 +72,32 @@
         align-items: center;
     }
     .hero_texto h1{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+    }
+    .hero_texto a{
+        padding: .2rem 1rem;
+        font-size: 1.3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .section_textos h3{
+        font-size: 1.7rem;
+    }
+    .section_textos p{
+        font-size: 1.3rem;
     }
 
-    .hero_texto a{
-        padding: .5rem 2rem;
-    }
     .card{
-        width: 23rem;
+        width: 22rem;
         height: 7rem;
+        border-radius: 1rem;
+    }
+    .card_img{
+        padding: 0 1rem;
+    }
+    .card_img img{
+        width: 5rem;
     }
     .card_puntos h3{
         font-size: 1rem;
@@ -114,16 +106,27 @@
     .card_estrellas i{
         font-size: 1.4rem;
     }
-    .card_img img{
-        width: 5rem;
-        margin: 0 1rem;
-    }
-    .section_textos{
-        margin: 0;
-        width: 100%;
-    }
     .section_img img{
-        margin-top: 2rem;
         width: 20rem;
+    }
+    .grid_container{
+        width: 90%;
+        height: 50rem;
+        margin: 0 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .grid_cuadros{
+        height: 12rem;
+        margin:  .3rem 0;
+    }
+    .card_proyectos{
+        height: 9rem;
+    }
+    .redes_contactos{
+        flex-direction: column;
+    }
+    .redes{
+        margin: 1rem 0;
     }
 }
