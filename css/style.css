@@ -37,6 +37,11 @@ body{
     box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.068);
 }
 
+.main_contenedor{
+    width: 0 90%;
+    margin: 0 10%;
+}
+
 .header_nav ul{
     display: flex;
     margin: 1rem;
@@ -67,8 +72,9 @@ body{
 /* Hero */
 
 .hero_container{
+    width: 90%;
+    margin: 0 10%;
     display: flex;
-    gap: 2rem;
 }
 .hero_img img{
     width: 100%;
@@ -77,8 +83,9 @@ body{
 }
 
 .hero_texto{
-    margin: 0 2rem;
-    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+
 }
 
 .hero_texto h1{
@@ -91,7 +98,7 @@ body{
 }
 
 .hero_texto a{
-    padding: .6rem 3rem;
+    padding: .7rem 2rem;
     background-color: #e63462;
     border-radius: 2rem;
     color: white;
@@ -99,32 +106,33 @@ body{
     font-size: 1.5rem;
 }
 
+.hero_img1{
+    padding-left: 4rem ;
+}
+
 .hero_img1 img{
-    width: 40rem;
+    width: 35rem;
 }
 
 /* Main */
 
-main{
-    width: 100%;
-    height: 40rem;
-}
 .section{
-    margin: 12rem 0; /*ajustas despues*/
+    margin: 3rem 0 6rem 0;
 }
 
 .section h2{
     font-size: 2.3rem;
     text-align: center;
+    padding: 3rem 0 1rem 0;
 }
 
 .section_container{
     display: flex;
-    width: 70%;
-    margin: 2rem 15%;
+
 }
 .section_textos{
-    width: 40%;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .section_textos h3{
@@ -141,19 +149,22 @@ main{
 }
 
 .section_img img{
-    width: 40rem;
+    width: 45rem;
+    padding: 1rem;
 }
 
 /* Mis skills */
 
+.skill{
+    margin: 3rem 0 6rem 0;
+}
 .skill h2{
+    padding: 3rem 0 3rem 0;
     font-size: 2.3rem;
     text-align: center;
 }
 
 .skill_container{
-    width: 90%;
-    margin: 2rem 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,31 +182,32 @@ main{
     align-items: center;
 }
 
-.card_img img{
-    padding-top: .7rem;
-    width: 8rem;
+.card_img{
+    padding: 0 1rem;
 }
 
-.card_puntos{
-    margin-left: 1.5rem;
+.card_img img{
+    width: 7rem;
 }
 
 .card_puntos h3{
-    padding: 1rem 0;
+    padding: .5rem 0;
 }
 
 .card_estrellas i{
     font-size: 2rem;
-    padding:  0 .4rem;
-    
 }
 
 /* Grid */
 
+.grid{
+    margin: 3rem 0 6rem 0;
+}
+
 .grid h2{
+    padding: 3rem 0 3rem 0;
     text-align: center;
     font-size: 2.3rem;
-    margin: 2.3rem 0;
 }
 
 .grid_cuadros{
@@ -246,15 +258,17 @@ main{
 /* marron */
 /* Proyectos */
 
+.proyectos{
+    margin: 3rem 0 6rem 0;
+}
+
 .proyectos h2{
+    padding: 3rem 0 3rem 0;
     text-align: center;
     font-size: 2.3rem;
-    margin: 4rem;
 }
 
 .proyectos_container{
-    width: 90%;
-    margin: 0 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -284,18 +298,24 @@ main{
 .card_proyectos img:hover{
     transform: scale(1.2);
 }
+/* contactos */
+
+.contactos{
+    margin: 3rem 0 6rem 0;
+}
 
 .contactos h2{
-    margin: 5rem 0;
+    padding: 3rem 0 3rem 0;
     text-align: center;
     font-size: 2.3rem;
 }
 
 .redes_contactos{
     display: flex;
-    width: 90%;
-    margin: 0 5% 5rem 5%;
+    width: 70%;
+    margin: 0 15%;
     justify-content: space-evenly;
+    padding: 1rem 0 4rem 0 ;
 }
 
 .redes{
@@ -311,7 +331,6 @@ main{
 
 .redes_iconos i{
     font-size: 3rem;
-    margin: .5rem;
 }
 
 .redes_texto p{
