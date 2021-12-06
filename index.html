@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/madiasQuerys.css">
     <link href='https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css' rel='stylesheet'>
-    <!-- <script src="javaScript/scrollreveal.js"></script> -->
+    <script src="javaScript/scrollreveal.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
@@ -19,22 +19,24 @@
 <body>
     <header class="header">
         <div class="header_contenedor">
-            <div class="header_bg">
-                <div class="header_container">
-                    <div class="header_logo">
+                <nav>
+                    <div class="logo">
                         <i class='bx bx-code-alt'></i>
                     </div>
-                    <div class="header_nav">
-                        <ul>
-                            <li><a href="#Mis_proyectos">Mis Proyectos</a></li>
-                            <li><a href="#Sobre_Mi">Sobre Mi</a></li>
-                            <li><a href="#Mis_Skills">Mis Skills</a></li>
-                            <li><a href="#Comentarios">Comentarios</a></li>
-                            <li><a href="#Contactos">Contactos</a></li>
-                        </ul>
+                    <ul class=" ul_bg">
+                        <li><a id="cerrar" href="#Sobre_Mi">Sobre Mi</a></li>
+                        <li><a id="cerrar" href="#Mis_Skills">Mis Skills</a></li>
+                        <li><a id="cerrar" href="#Comentarios">Comentarios</a></li>
+                        <li><a id="cerrar" href="#Mis_proyectos">Mis Proyectos</a></li>
+
+                        <div class="cerrar">
+                            <i class='bx bx-x'></i>
+                        </div>
+                    </ul>
+                    <div class="menu">
+                        <i class='bx bx-menu'></i>
                     </div>
-                </div>
-            </div>
+                </nav>
             <div class="hero">
                 <div class="hero_img">
                     <img src="img/Stacked Wave.svg" alt="">
