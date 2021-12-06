@@ -1,5 +1,5 @@
 window.sr = ScrollReveal();
-    sr.reveal('.header_container',{
+    sr.reveal('nav',{
         duration: 2000,
         origin: 'bottom',
         distance: '-100px'
@@ -37,5 +37,12 @@ window.sr = ScrollReveal();
     sr.reveal('.contactos',{
         duration: 3000,
         origin: 'top',
+        distance: '-100px'
+    }); 
+
+    window.sr = ScrollReveal();
+    sr.reveal('.proyectos',{
+        duration: 3000,
+        origin: 'right',
         distance: '-100px'
     }); 

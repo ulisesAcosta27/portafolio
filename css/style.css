@@ -12,61 +12,50 @@ html{
 body{
     font-family: 'Lato', sans-serif;
 }
-
-.header_container{
-    width: 90%;
-    height: 3rem;
-    margin: 0 5%;
+/* nav */
+.header_contenedor nav{
     display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
     justify-content: space-between;
-    z-index: 1;
-}
-
-.header_bg{
     width: 100%;
     height: 3rem;
     position: fixed;
     z-index: 1;
-
 }
-.stycky{
+
+.logo,
+.menu{
+    font-size: 2rem;
+    margin: .3rem;
+}
+
+.logo{
+    margin-left: 3rem;
+}
+.menu{
+    display: none;
+    cursor: pointer;
+}
+.navScroll{
     background-color: white;
-    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.068);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.082);
 }
-
-.main_contenedor{
-    width: 0 90%;
-    margin: 0 10%;
-}
-
-.header_nav ul{
+nav ul{
     display: flex;
-    margin: 1rem;
-}
-
-.header_logo{
-    margin: .7rem;
-}
-.header_logo i{
-    font-size: 1.7rem;
-
-}
-
-.header_nav ul li{
     list-style: none;
+    margin: .8rem;
+    margin-right: 3rem;
+    transition: .3s all ease;
 }
 
-.header_nav ul li a,
-.header_logo i{
-    padding: 0 1rem;
-}
-
-.header_nav ul li a{
-    text-decoration: none;
+nav ul li a{
     color: black;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.cerrar{
+    font-size: 3rem;
+    cursor: pointer;
 }
 
 /* Hero */
@@ -116,6 +105,10 @@ body{
 
 /* Main */
 
+.main_contenedor{
+    width: 80%;
+    margin: 0 10%;
+}
 .section{
     margin: 3rem 0 6rem 0;
 }
@@ -212,8 +205,8 @@ body{
 
 .grid_cuadros{
     border-radius: 1rem;
-    border: 2px solid rgba(0, 0, 0, 0.089);
-    box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.13);
+    border: 2px solid rgba(255, 255, 255, 0.185);
+    box-shadow: -5px 7px 14px -3px rgba(0, 0, 0, 0.52);
 }
 
 .grid_container{
