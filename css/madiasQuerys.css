@@ -19,6 +19,9 @@
         height: 40rem;
         margin: 0 10%;
     }
+    .skill_img img{
+        width: 35rem;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -97,9 +100,20 @@
         width: 90%;
         margin-bottom: 4rem;
     }
-    .card{
-        width: 35rem;
-        height: 10rem;
+    .skill_container{
+        flex-direction: column;
+    }
+    .skill_img img{
+        width: 30rem;
+        margin-bottom: 2rem;
+    }
+    .skill_icon{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .skill_icon img{
+        width: 6rem;
     }
 }
 
@@ -134,24 +148,9 @@
     .section_textos p{
         font-size: 1.3rem;
     }
-
-    .card{
-        width: 22rem;
-        height: 7rem;
-        border-radius: 1rem;
-    }
-    .card_img{
-        padding: 0 1rem;
-    }
-    .card_img img{
-        width: 5rem;
-    }
-    .card_puntos h3{
-        font-size: 1rem;
-    }
-
-    .card_estrellas i{
-        font-size: 1.4rem;
+    .skill_img img{
+        width: 20rem;
+        margin-bottom: 2rem;
     }
     .section_img img{
         width: 20rem;
